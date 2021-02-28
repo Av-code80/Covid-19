@@ -1,72 +1,153 @@
 <!DOCTYPE html>
 <html lang=en>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-QTWEXNQ2LN');
-        </script>
 
-            <meta charset="utf-8">
-            <meta name="description" content="Covid-19 platform is a valuble database to be informe the rate of CoronaVirus in the world">
-            <!-- Robots tag adding for following the search enging google -->
-            <code><meta name="robots" content="index, World Health Orgnization"></code>
-            <meta property="og:type" content="website" />
-            <meta property="og:title" content="Covid rate diseases and death" />
-            <meta property="og:url" content="https://la-chouette-agence.fr/chouette-index.html" />
-            <meta property="og:description" content="Covid-19 Situation by Country, Territory & Area annoncing by World Health Organization " />
-            <meta property="og:image" content="favicon.jpg" />
-            <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-            <meta name="twitter:title" content="WHO Coronavirus Disease (COVID-19) Dashboard">
-            <meta name="twitter:card" content="summary">
-            <meta name="twitter:creator" content="@AvehGhasemian">
-            <meta name="twitter:image" content="favicon.jpg">
-            <meta name="twitter:description" content=" Coronavirus Disease rate in Iran">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-            <!-- Canonical link used to annonce Google the principal page for indexing and rendering -->
-            <link rel="canonical" href="https://la-chouette-agence.fr/chouette-index.html" />
-            <link rel="stylesheet" type="text/css" href="style.css">
-            <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-            <link rel="stylesheet" type="text/css" href="./css/et-line.css">
-        
-           <!-- <script src="./js/jquery-2.1.0.js" defer></script>
-            <script src="./js/bootstrap.js" defer></script>
-            <script src="./js/blocs.js" defer></script> -->
-            <script src="./js/jquery.touchSwipe.js" defer></script>
-            <script src="./js/gmaps.js" defer></script> 
-        
-            <title>Coronavirus Diseases (Covid-19) rating in the world</title>
-        </head>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-QTWEXNQ2LN');
+    </script>
+
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/e8f3f5163c.js" crossorigin="anonymous"></script>
+    <meta name="description"
+        content="Covid-19 platform is a valuble database to be informe the rate of CoronaVirus in the world">
+    <!-- Robots tag adding for following the search enging google -->
+    <code><meta name="robots" content="index, World Health Orgnization"></code>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Covid rate diseases and death" />
+    <meta property="og:url" content="https://av-code80.github.io/Covid-19" />
+    <meta property="og:description"
+        content="Covid-19 Situation by Country, Territory & Area annoncing by World Health Organization " />
+    <meta property="og:image" content="favicon.jpg" />
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <meta name="twitter:title" content="WHO Coronavirus Disease (COVID-19) Dashboard">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@AvehGhasemian">
+    <meta name="twitter:image" content="favicon.pnj">
+    <meta name="twitter:description" content=" Coronavirus Disease rate in Iran">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- Canonical link used to annonce Google the principal page for indexing and rendering -->
+    <link rel="canonical" href="https://covid19.who.int/table" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Coronavirus Diseases (Covid-19) rating in the world</title>
+</head>
+
 <body>
-        <!-- Principal container -->
-	<div class="page-container">
+    <!-- Principal container -->
+    <div id="page-container">
 
-    <header>
-<div>
-    <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/World_Health_Organization_Logo.svg/1200px-World_Health_Organization_Logo.svg.png"></a>
-    <a href="index.html"><h1>WHO Coronavirus Disease (COVID-19) Dashboard</h1></a>
-    <p>Data last updated: 2021/2/27, 10:33am CET
-    </p>
-</div>
+        <header>
+            <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/World_Health_Organization_Logo.svg/1200px-World_Health_Organization_Logo.svg.png">alt="Logo of World Health Organization"</a>
+            <div class="flex">
+                <a href="index.html">
+                    <h1>WHO Coronavirus Disease (COVID-19) Dashboard</h1>
+                    <span>Data last updated: 2021/2/27, 10:33am CET</span>
+                </a>
 
-<ul>
-    <li>Overview</li>
-    <li>Data Table</li>
-    <li>Explore</li>
-</ul>
-    </header>
+                <!-- Navbar -->
+                <nav class="flex">
+                    <ul class="flex">
+                        <li><a href="">Overview</a></li>
+                        <li><a href="" class="li-middle">Data Table</a></li>
+                        <li><a href="">Explore</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-<div>
-    <div>Latest</div>
-</div>
+        <form class="bar-searching" action="#" method="GET">
+            <input type="search" class="searchInput" placeholder="Search by Country, Territory, or Area" />
+            <button class="button-search">
+                <i class="fas fa-search">
+                </i>
+            </button>
+        </form>
 
-</header>
+        </header>
 
+        <section>
+            <article class="flex-container">
+
+                <table>
+                    <caption>Situation by Country, Territory & Area</caption>
+
+                    <tr class="tr-style">
+                        <th>Name</th>
+                        <th>Cases - cumulative<br />total</th>
+                        <th>Cases - newly<br /> reported in last 24<br /> hours</th>
+                        <th>Deaths -<br /> cumulative total</th>
+                        <th>Deaths - newly<br /> reported in last 24<br /> hours</th>
+                        <th>Transmission<br /> Classification</th>
+                    </tr>
+                    <tr>
+                        <th>Global</th>
+                        <th>12200</th>
+                        <th>208880</th>
+                        <th>49888</th>
+                        <th>10735</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Afghanistan</td>
+                        <td>5570</td>
+                        <td>20880</td>
+                        <td>4999</td>
+                        <td>6000</td>
+                        <td>Clusters of cases</td>
+                    </tr>
+                    <tr>
+                        <td>Albania</td>
+                        <td>3570</td>
+                        <td>30880</td>
+                        <td>1999</td>
+                        <td>8000</td>
+                        <td>Clusters of cases</td>
+                    </tr>
+                    <tr>
+                        <td>Algeria</td>
+                        <td>8570</td>
+                        <td>40880</td>
+                        <td>5995</td>
+                        <td>8300</td>
+                        <td>Clusters of cases</td>
+                    </tr>
+
+                </table>
+            </article>
+            <aside>
+                <h1>Better health for everyone, everywhere</h1>
+                <p id="photo_"><img src="images/covid_19_equipements.png__720x701_q85_crop_subsampling-2_upscale.png"
+                        alt="Funny image of Covid-19" /></p>
+                <p>Working with 194 Member States, across six regions, and from more than 150 offices, everywhere&nbsp;:
+                    Together we strive to combat diseases.</p>
+            </aside>
+        </section>
+    </div>
+
+    <footer class="flex">
+        <a href="#"><img src="https://i.pinimg.com/originals/64/2d/8f/642d8f291e9f6e92a8aa668976d258e0.png"></a>
+
+        <div class="our-rate">
+            <h2>Internatioanl rating</h2>
+            <ul>
+                <li><a href="#">WHO Health Emergency Dashboard</a></li>
+                <li><a href="#">Covid-19</a></li>
+            </ul>
+        </div>
+
+        <div class="Virus">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><a href="#">WHO (COVID-19) Homepage</a></li>
+                <li><a href="#">Iran statistic</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
-
-
 </html>
