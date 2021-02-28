@@ -150,6 +150,28 @@ tr{
     font-weight: normal;
 }
 
+button{
+  font-size: 12px;
+    background-color: #1c8fd7;
+    width: 15%;
+    margin-top: 10px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:hover{
+  background-color: #0065fc;
+  transform: scale(1.02);
+
+}
+
+#paragraph
+{
+  display: none;
+  margin-top: 15px;
+  
+}
 /* --aside--*/
 
 section
