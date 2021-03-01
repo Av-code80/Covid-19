@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
   }
 
 #page-container{
@@ -158,20 +159,15 @@ button{
     padding: 8px;
     color: #fff;
     font-weight: 600;
+    border: none;
 }
 
 button:hover{
   background-color: #0065fc;
   transform: scale(1.02);
-
 }
 
-#paragraph
-{
-  display: none;
-  margin-top: 15px;
-  
-}
+
 /* --aside--*/
 
 section
