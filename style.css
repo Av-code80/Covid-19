@@ -212,7 +212,9 @@ footer{
   }
   
   footer a:hover{
-    font-weight: 600;
     color: #0065fc;
+    transform: scale(2);
+    font-weight: 600;
+
   }
   
