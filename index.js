@@ -43,7 +43,7 @@ tr.appendChild(rowGenerator(Transmision classification));
 }                                       //?? why 2 functions are seperated?
 
 function myFunction() {
-  let tr = rowGenerator(            //assign the tr elements to rowGenerator function
+  let tr = rowGenerator(            //?? we know already that tr = rowGenerator ?
     "Iran",
     "88889",
     "49999",
@@ -53,6 +53,7 @@ function myFunction() {
   )
 
 let tbl = document.querySelector("#text");
-tbl.appendChild(tr);
-};
+document.tbl.appendChild(tr);
+
+}
 
