@@ -1,3 +1,11 @@
+// let age = prompt("What is your age?", 18);      Arrow functions can be used in the same way as Function Expressions.
+// let welcome = (age < 18) ?
+  // () => alert('Hello') :
+  // () => alert("Greetings!");
+
+
+// welcome();
+
 //Creation an information button in the statistic board.
 /*function btnFunction() {
     var p = document.getElementById("paragraph");
@@ -31,28 +39,29 @@ function colGenerator(col) {                      //?? col ?
 }
 
 function rowGenerator(name, casesTotal, casesNewly, deathsTotal, deathsNewly, transmissionClassification) {
-/* let tr = document.createElement("TR");
+let tr = document.createElement("TR");
 tr.appendChild(colGenerator(name));
 tr.appendChild(colGenerator(casesTotal));
 tr.appendChild(colGenerator(casesNewly));
 tr.appendChild(colGenerator(deathsTotal));
 tr.appendChild(colGenerator(deathsNewly));
-tr.appendChild(rowGenerator(transmissionClassification));
-  return tr; */
-}                                       //?? why 2 functions are seperated?
+tr.appendChild(colGenerator(transmissionClassification)); 
+  return tr; 
+}
 
 function myFunction() {
-  let tr = rowGenerator(            //?? we know already that tr = rowGenerator ?
-    "Iran",
+  let tr = rowGenerator(           
+    "France",
     "88889",
     "49999",
     "77778",
     "28999",
-    "Clusters of cases"
+    "Clusters of cases",        
   )
-
+  
 let tbl = document.querySelector("#text");
-document.tbl.appendChild(tr);
+tbl.appendChild(tr);
+} 
 
-}
+
 
