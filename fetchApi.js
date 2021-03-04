@@ -6,7 +6,10 @@ const fetchApi = async function() {
     displayData(jsonData);
 }
 
-// Creating a board for each data / tr / td of table sent in the API Json 
+
+
+
+// Creating a board for each data / tr / td of table which sent in the API Json 
 function displayData(data) {
     data.forEach(tr => {
         const tr = new rowGenerator(name, casesTotal, casesNewly, deathsTotal, deathsNewly, Transmission Classification);
@@ -16,3 +19,12 @@ function displayData(data) {
 
 
  
+/*
+
+fetch('https://ghoapi.azureedge.net/api/Dimension').then(function(response) {
+  response.text().then(function(text) {
+    poemDisplay.textContent = text;
+  });
+});
+
+*/

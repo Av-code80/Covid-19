@@ -30,16 +30,15 @@ function colGenerator(col) {                      //?? col ?
     return td;
 }
 
-
-function rowGenerator(name, casesTotal, casesNewly, deathsTotal, deathsNewly, Transmission Classification) {
-let tr = document.createElement("TR");
+function rowGenerator(name, casesTotal, casesNewly, deathsTotal, deathsNewly, transmissionClassification) {
+/* let tr = document.createElement("TR");
 tr.appendChild(colGenerator(name));
 tr.appendChild(colGenerator(casesTotal));
 tr.appendChild(colGenerator(casesNewly));
-tr.appendChild(colGenerator(deathTotal));
-tr.appendChild(colGenerator(deathRating));
-tr.appendChild(rowGenerator(Transmision classification));
-  return tr;
+tr.appendChild(colGenerator(deathsTotal));
+tr.appendChild(colGenerator(deathsNewly));
+tr.appendChild(rowGenerator(transmissionClassification));
+  return tr; */
 }                                       //?? why 2 functions are seperated?
 
 function myFunction() {
