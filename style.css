@@ -214,6 +214,12 @@ footer{
     color: #0065fc;
     transform: scale(2);
     font-weight: 600;
-
   }
   
+  iframe{
+    width: 50%;
+  }
+
+  .output {
+    background: #eee;
+}
