@@ -126,7 +126,8 @@ span{
     justify-content: initial;
     -webkit-box-align: initial;
     align-items: initial;
-    width:80%;
+    width:75%;
+    margin-right: 10px;
 }
 
 /* --board--*/
@@ -189,7 +190,7 @@ aside h1
     font-size: 11px;
 }
 
-/* --aside--*/
+/* --footer--*/
 
 footer{
     padding: 35px 0px 30px;
