@@ -65,3 +65,10 @@ tbl.appendChild(tr);
 
 
 
+document.getElementById('maListe').addEventListener('click', function(e){ 
+  var initElem = e.target; 
+  if(initElem.className != 'element'){ // Si l'élément n'est pas un de ceux à traiter 
+      return; 
+  } 
+  alert(initElem.dataset.texte); 
+});

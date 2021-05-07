@@ -160,6 +160,7 @@ button{
     color: #fff;
     font-weight: 600;
     border: none;
+    transition : all .5s;
 }
 
 button:hover{
@@ -170,13 +171,11 @@ button:hover{
 
 /* --aside--*/
 
-section
-{
+section{
     display: flex;
 }
    
-aside
-{
+aside{
     position: relative;
     font-size: 0.8em;
     padding: 10px;
@@ -185,8 +184,7 @@ aside
     width: 20%;
 }
 
-aside h1
-{
+aside h1{
     font-size: 11px;
 }
 
@@ -224,3 +222,4 @@ footer{
   .output {
     background: #eee;
 }
+
