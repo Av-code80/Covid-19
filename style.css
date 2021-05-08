@@ -314,6 +314,6 @@ caption {
 aside h1 {
   font-size: 1.3rem;
 }
-footer{min-width:161%;}
+footer{min-width:161%; flex-direction: column;}
 iframe{width:95%;}
 }
