@@ -186,6 +186,8 @@ button:hover{
 
 section{
     display: flex;
+    margin-bottom: 40px;
+
 }
    
 aside{
