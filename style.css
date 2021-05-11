@@ -43,6 +43,7 @@ span{
  
   nav{
     margin: 2px 0px 55px 250px;
+    color: #fff;
 
   }
 
@@ -125,7 +126,7 @@ span{
     min-height: 0px;
     min-width: 0px;
     padding: 1rem;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid #fff;
     border-radius: 10px;
     flex: 1 1 auto;
     -webkit-box-pack: initial;
@@ -134,6 +135,7 @@ span{
     align-items: initial;
     width:75%;
     margin-right: 10px;
+    color: rgba(255, 255, 255, 0.842);
 }
 
 /* --board--*/
@@ -143,12 +145,13 @@ caption {
     font-weight: bold;
     text-align: left;
     margin-bottom: 25px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.973);
     padding-bottom: 25px;
 }
 
 caption:hover{
-  color: rgba(206, 199, 199, 0.801);
+  color: #84d7e6;
+  ;
 }
 
 tr{
@@ -193,6 +196,7 @@ aside{
     box-shadow: 0px 2px 5px #1c1a19;
     width: 20%;
     color: #fff;
+    border: 1px solid #fff;
 }
 
 aside h1{
@@ -205,16 +209,19 @@ footer{
     padding: 5px 0px 0px;
     background-color: #040f2279;
     color: #fff;
-    
   }
 
   footer img{
       width: 6rem;
+      padding : 12px;
+
   }
 
   footer div{
     flex: 1;
     font-size: .7rem;
+    padding : 12px;
+
   }
   
   footer li{
